@@ -1,0 +1,24 @@
+{% load gtm_hit_extra%}
+
+
+<div class="well col-sm-12 big">
+  <h4 class="col-sm-12">Camera settings</h4>
+
+  <div class="col-sm-12">
+  <label for="iHeight" class="col-sm-5">Image height:</label>
+    <div class="panel col-sm-2" id="iHeight">1920</panel></div>
+  </div>
+
+  <div class="col-sm-12">
+  <label for="iWidth" class="col-sm-5">Image width:</label>
+    <div class="panel col-sm-2" id="iWidth">1080</panel></div>
+  </div>
+
+  <div class="col-sm-12">
+    <label for="numCameras" class="col-sm-5">Number cameras:</label>
+      <input class="panel col-sm-2" id="numCameras" value=1 />
+      <div class="col-sm-1"></div>
+      <button class="btn btn-xs btn-primary col-sm-2" onclick="updateNumCams()">Save</button>
+  </div>
+
+</div>

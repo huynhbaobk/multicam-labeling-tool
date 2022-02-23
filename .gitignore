@@ -1,0 +1,6 @@
+*.pyc
+*.json
+*.pom
+day2
+gtm_hit/static/gtm_hit/frames
+gtm_hit/labels
